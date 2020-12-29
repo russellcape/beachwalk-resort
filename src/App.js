@@ -1,10 +1,13 @@
 import React, { Component } from "react";
+import Home from "./pages/Home"
+import GlobalStyles from "./components/globals/GlobalStyles";
 
 function App() {
   return (
-    <div>
-      hello from app.js
-    </div>
+    <React.Fragment>
+      <GlobalStyles />
+      <Home />
+    </React.Fragment>
   );
 }
 
