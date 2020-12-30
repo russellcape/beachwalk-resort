@@ -14,8 +14,7 @@ body {
     font-size: 100%;
     color: ${setColor.mainBlack};
     background: ${setColor.mainWhite};
-    ${setFont.main}
-    
+    ${setFont.main};
 }
 
 h1 {
