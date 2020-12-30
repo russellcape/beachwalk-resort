@@ -35,7 +35,7 @@ export const setRem = (number = 16) => {
 };
 
 export const setLetterSpacing = (number = 2) => {
-    return `letter-spacing:${number}px`;
+    return `letter-spacing: ${number}px`;
 };
 
 export const setBorder = ({ 
@@ -60,7 +60,6 @@ export const media = Object.keys(sizes).reduce((acc, label) => {
             ${css(...args)}
         }
     `;
-
     return acc;
 }, {});
 
