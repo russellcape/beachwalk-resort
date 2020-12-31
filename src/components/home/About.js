@@ -33,6 +33,10 @@ const About = () => {
 };
 
 const AboutCenter = styled.div`
+    .about-img,
+    .about-info {
+        padding: ${setRem(30)};
+    }
     .about-img {
         img {
             width: 100%;
@@ -52,7 +56,7 @@ const AboutCenter = styled.div`
         .about-img,
         .about-info {
             padding: ${setRem(0)};
-        }
+        };
         width:100vw:
         max-width: 1170px;
         display: grid;
@@ -63,8 +67,8 @@ const AboutCenter = styled.div`
             align-self: center;
         }
         .about-info {
-            p{
-                width: 100%;
+            p {
+                width: 80%;
             }
         }
     `}

@@ -38,6 +38,12 @@ export const setLetterSpacing = (number = 2) => {
     return `letter-spacing: ${number}px`;
 };
 
+export const setShadow = {
+    light: "box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);",
+    dark: "box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);",
+    darkest: "box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);"
+};
+
 export const setBorder = ({ 
     width="2px", 
     style="solid", 
@@ -51,7 +57,7 @@ const sizes = {
     desktop: 992,
     tablet: 768,
     phone: 576,
-}
+};
 
 // Iterate through the sizes and create a media template
 export const media = Object.keys(sizes).reduce((acc, label) => {

@@ -28,7 +28,7 @@ export default class Rooms extends Component {
 }
 
 const RoomsCenter = styled.div`
-    width: 9vw;
+    width: 90vw;
     margin: 0 auto;
     ${media.tablet`
         display: grid;
