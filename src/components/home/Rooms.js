@@ -4,10 +4,11 @@ import styled from "styled-components";
 import Title from "../globals/Title";
 import Section from "../globals/Section";
 import rooms from "./rooms-data";
-import { setColor, media, setRem } from "../../styles";
-
-
-
+import { 
+    setColor, 
+    media, 
+    setRem 
+} from "../../styles";
 export default class Rooms extends Component {
     state = {
         rooms: rooms
@@ -20,7 +21,6 @@ export default class Rooms extends Component {
                     {this.state.rooms.map((room) => {
                         return <Room key={room.id} room={room} />;
                     })}
-
                 </RoomsCenter>
             </Section>
         )

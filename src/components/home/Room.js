@@ -37,7 +37,7 @@ export default styled(Room)`
         img {
             width: 100%;
             display: block;
-            ${setTransition}
+            ${setTransition};
         }
         &:hover img {
             opacity: 0.5;
@@ -46,12 +46,13 @@ export default styled(Room)`
             position: absolute;
             top: 50%;
             left: 50%;
-            transform: translate()(-50%, -50%);
+            transform: translate(-50%, -50%);
             color: ${setColor.mainWhite};
-            ${setLetterSpacing()};
+            ${setLetterSpacing(5)};
             font-size: ${setRem(22)};
             padding: ${setRem(10)} ${setRem(33)};
             ${setBorder({ color: setColor.mainWhite })};
+            opacity: 0;
             ${setTransition()};
         }
         &:hover .price {

@@ -10,7 +10,7 @@ export const setColor = {
 
 export const setFont = {
     main: "font-family: 'Lato', sans-serif;",
-    slanted: "font-family: 'Courgette', cursive;"
+    second: "font-family: 'PT Sans', sans-serif;"
 };
 
 export const setFlex = ({ x = "center", y = "center" } = {}) => {
@@ -75,4 +75,4 @@ export const setTransition = ({
     timing= "ease-in-out"
 } = {}) => {
     return`transition: ${property} ${time} ${timing}`;
-}
+};

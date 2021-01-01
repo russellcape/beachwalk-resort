@@ -11,7 +11,6 @@ const Header = () => {
             <Banner greeting="Welcome to" title="beachwalk resort" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus congue scelerisque purus, quis tempus magna.">
                 <PrimaryBtn t="1rem">view details</PrimaryBtn>
                 {/* <PrimaryBtn as="a" href="https://www.google.ca/">view details</PrimaryBtn> */}
-
             </Banner>
         </Hero>
     );
